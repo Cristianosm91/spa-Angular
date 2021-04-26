@@ -11,3 +11,9 @@ Compomentes criados: Home, Filmes e Series
 Compomentes utilizados: MatToolbarModule, MatButtonToggleModule, MatListModule, MatCardModule
 
 #### 3- Utilizar uma interação através da interpolação e/ou utilizando Property Biding.
+
+<img src="https://media.giphy.com/media/iBBpkxdPmupsiYIGYi/giphy.gif"/>
+<img src="https://media.giphy.com/media/YIM40EvMwLDxrHH8op/giphy.gif"/> 
+<img src="https://media.giphy.com/media/0nANh6dXKRhUv2HL0V/giphy.gif"/>
+
+
