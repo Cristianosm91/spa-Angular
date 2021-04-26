@@ -1,0 +1,238 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    /* background-color: #4e44a3;*/
+    background-size: cover;
+    background-position: center top;
+    background-repeat: repeat;
+    min-height: 4390px;
+    min-width: 1450px;
+    background-image: url("https://wiy.com.br/noticias/wp-content/uploads/2019/08/20190705103406.jpg");
+}
+
+table td {
+    padding: 5px;
+    margin: 70px;
+    height: auto;
+    width: 90px;
+    border: 2px solid white;
+    background-color: rgba(24, 0, 181, 0.852);
+    font-weight: bold;
+}
+
+table tr {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+th {
+    background-color: rgb(3, 3, 90);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: auto;
+}
+
+section {
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 1288px;
+    height: 130px;
+    margin-top: 12px;
+    /*background-color:blue;*/
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/au_richimage_disney_r_1_24dbf44d_0584e557.jpeg?region=0,0,3200,764);
+}
+
+table {
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+    /*width:55%;*/
+    margin-top: 12px;
+    /*background-color:blue;*/
+    background-image: url(https://www.meupositivo.com.br/doseujeito/wp-content/uploads/2018/03/oscar-jogos-para-android-inspirados-em-filmes.png);
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+mat-toolbar {
+    background-color: rgb(2, 22, 87);
+}
+
+.title {
+    color: white;
+}
+
+.subtitle {
+    color: #fcfcfcfc;
+    font-weight: bold;
+    font-size: 23px;
+    background-color: rgba(0, 0, 0, 0.549);
+}
+
+footer {
+    color: white;
+    background-image: url(https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2018/03/13153742/RT_300EssentialMovies_700X250.jpg);
+    font-weight: bold;
+    font-size: 23px;
+    display: block;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+    max-width: 1300px;
+}
+
+.botao {
+    background-color: #5862d0;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid black;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    height: 45px;
+    width: 100px;
+    margin: 6px;
+}
+
+.botao:hover {
+    background-color: #080755;
+    font-size: 14px;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+div mat-list mat-list-item .botaoOndeAssistir {
+    background-color: #5862d0;
+    font-size: 14px;
+    color: black;
+    border-radius: 8px;
+    border: 1px solid black;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    height: 45px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    margin: 6px;
+}
+
+div mat-list mat-list-item .botaoOndeAssistir:hover {
+    background-color: #080755;
+    font-size: 14px;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    margin: 6px;
+}
+
+section div .btn-fechar {
+    background-color: #f44336;
+    font-size: 14px;
+    align-items: center;
+    color: rgb(55, 3, 3);
+    border-radius: 12px;
+    border: 1px solid black;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    height: 35px;
+    margin: 6px;
+}
+
+section div .btn-fechar:hover {
+    background-color: #b81004;
+    font-size: 14px;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+section div .btn-exibir {
+    background-color: #329b36;
+    font-size: 14px;
+    align-items: center;
+    color: #03350f;
+    border-radius: 12px;
+    border: 1px solid black;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    height: 35px;
+}
+
+section div .btn-exibir:hover {
+    background-color: #096a0c;
+    font-size: 14px;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.mat-card {
+    /* transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    position: relative;*/
+    padding: 16px;
+    font-weight: normal;
+    background-color: rgba(24, 0, 181, 0);
+    height: 390px;
+    width: 315px;
+    color: white;
+}
+
+.mat-card-title {
+    width: 5px;
+}
+
+.mat-card-content {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(0, 0, 0, 0.72);
+    padding: 5px 5px 5px 5px;
+    justify-content: right;
+}
+
+.mat-card-title {
+    width: max-content;
+}
