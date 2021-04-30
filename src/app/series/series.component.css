@@ -1,4 +1,13 @@
-h1 {
+/*h1 {
     color: white;
     font-weight: bold;
+}
+*/
+
+.subtitle {
+    color: #fcfcfcfc;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.549);
 }

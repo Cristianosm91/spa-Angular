@@ -21,28 +21,25 @@
             <mat-button-toggle class="btn-exibir" (click)="exibirTabelaS()">Exibir Séries</mat-button-toggle>
             <mat-button-toggle class="btn-fechar" (click)="mudarValorS()">Fechar Séries</mat-button-toggle>
         </div>
-
     </section>
 
 
 
     <table *ngIf="exibeTabela">
+        <spa-filmes></spa-filmes>
         <tr>
             <th>Nome do Filme</th>
             <th>Trailer</th>
             <th>IMDb</th>
             <th>Genero</th>
             <th>Lançamento</th>
-
-
         </tr>
+
         <tr *ngFor="let filme of listaFilmes">
-            <!-- <td><img width="350" height="315" src="{{ filme.nome }}"></td>-->
             <td>
                 <mat-card>
                     <mat-card-header>
                         <mat-card-title>{{ filme.nome }}</mat-card-title>
-                        <!--<mat-card-subtitle>1h 34min</mat-card-subtitle> -->
                     </mat-card-header>
                     <img mat-card-image width="560" height="220" src="{{ filme.img }}">
                     <mat-card-content>
@@ -52,12 +49,15 @@
                     </mat-card-content>
                 </mat-card>
             </td>
-            <td><iframe width="560" height="425" [src]="listarTrailers(filme.urlTrailer)" frameborder="0" allowfullscreen></iframe></td>
+            <td>
+                <iframe width="560" height="425" [src]="listarTrailers(filme.urlTrailer)" frameborder="0" allowfullscreen>
+                </iframe>
+            </td>
             <td>
                 <a href="{{filme.urlIMDb}}" target="_blank">
                     <button role="button" class="botao">
-            Visitar IMDb
-          </button>
+                        Visitar IMDb
+                    </button>
                 </a>
             </td>
             <td>{{filme.genero}}</td>
@@ -66,22 +66,22 @@
     </table>
 
     <table *ngIf="exibeTabelaS">
+        <spa-series>
+        </spa-series>
         <tr>
             <th>Nome da Série</th>
             <th>Trailer</th>
             <th>IMDb</th>
             <th>Genero</th>
             <th>Lançamento</th>
-
-
         </tr>
         <tr *ngFor="let serie of listaSeries">
-            <!-- <td><img width="350" height="315" src="{{ serie.nome }}"></td>-->
             <td>
                 <mat-card>
                     <mat-card-header>
-                        <mat-card-title>{{ serie.nome }}</mat-card-title>
-                        <!--<mat-card-subtitle>1h 34min</mat-card-subtitle> -->
+                        <mat-card-title>{{ serie.nome }}
+                            <mat-card-subtitle>{{ serie.qtdTemporada }} Temporadas</mat-card-subtitle>
+                        </mat-card-title>
                     </mat-card-header>
                     <img mat-card-image width="560" height="220" src="{{ serie.img }}">
                     <mat-card-content>
@@ -91,12 +91,15 @@
                     </mat-card-content>
                 </mat-card>
             </td>
-            <td><iframe width="560" height="425" [src]="listarTrailers(serie.urlTrailer)" frameborder="0" allowfullscreen></iframe></td>
+            <td>
+                <iframe width="560" height="425" [src]="listarTrailers(serie.urlTrailer)" frameborder="0" allowfullscreen>
+                </iframe>
+            </td>
             <td>
                 <a href="{{serie.urlIMDb}}" target="_blank">
                     <button role="button" class="botao">
-            Visitar IMDb
-          </button>
+                        Visitar IMDb
+                    </button>
                 </a>
             </td>
             <td>{{serie.genero}}</td>

@@ -6,4 +6,5 @@ export class series {
     urlIMDb: string = '';
     genero: string = '';
     descricao:string ='';
+    qtdTemporada:string='';
 }

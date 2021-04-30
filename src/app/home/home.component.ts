@@ -74,6 +74,7 @@ export class HomeComponent implements OnInit {
 
     {
       nome:'Arrow',
+      qtdTemporada: '8',
       img: 'https://www.oficinadanet.com.br/imagens/post/28167/arrow.jpg',
       urlTrailer: 'https://www.youtube.com/embed/Ws9X6I5CvcE',
       urlIMDb: 'https://www.imdb.com/title/tt2193021/?ref_=nv_sr_srsg_0',
@@ -82,6 +83,7 @@ export class HomeComponent implements OnInit {
     },
     {
       nome:'The Flash',
+      qtdTemporada: '7',
       img: 'https://i.ytimg.com/vi/fa6SMlq0oO0/maxresdefault.jpg',
       urlTrailer: 'https://www.youtube.com/embed/fymU5y3Xm14',
       urlIMDb: 'https://www.imdb.com/title/tt3107288/?ref_=fn_al_tt_1',
@@ -90,6 +92,7 @@ export class HomeComponent implements OnInit {
     },
     {
       nome:'Gotham',
+      qtdTemporada: '5',
       img: 'https://1.bp.blogspot.com/-uUMJfKzGOww/U8gEqHnjQII/AAAAAAAAITM/d8L6aAUB5Ds/s1600/gothan.jpg',
       urlTrailer: 'https://www.youtube.com/embed/UEUU8OyPOyI',
       urlIMDb: 'https://www.imdb.com/title/tt3749900/?ref_=fn_al_tt_1',
@@ -98,6 +101,7 @@ export class HomeComponent implements OnInit {
     },
     {
       nome:'Punho de Ferro',
+      qtdTemporada: '2',
       img: 'https://deliriumnerd.com/wp-content/uploads/2017/09/Netflix-Iron-Fist-1-620x310.jpg',
       urlTrailer: 'https://www.youtube.com/embed/03W2ffgkYDM',
       urlIMDb: 'https://www.imdb.com/title/tt3322310/?ref_=nv_sr_srsg_0',
@@ -106,6 +110,7 @@ export class HomeComponent implements OnInit {
     },
     {
       nome:'Falcão e Soldado Invernal',
+      qtdTemporada: '1',
       img: 'https://disneyplusbrasil.com.br/wp-content/uploads/2021/03/Falcao-e-o-Soldado-Invernal-Fundo-1024x576.jpg',
       urlTrailer: 'https://www.youtube.com/embed/ZHaokMTWgdY',
       urlIMDb: 'https://www.imdb.com/title/tt9208876/',
@@ -113,12 +118,13 @@ export class HomeComponent implements OnInit {
       descricao:'Uma produção da Disney e da Marvel Studios, estrelando os personagens carismáticos Falcão e Soldado Invernal.'
     },
     {
-      nome:'Punho de Ferro',
+      nome:'Os Defensores',
+      qtdTemporada: '1',
       img: 'https://miro.medium.com/max/2560/1*HNMF98U11_gELQzp-Oc1HQ.jpeg',
       urlTrailer: 'https://www.youtube.com/embed/bWbLfm0_SXA',
       urlIMDb: 'https://www.imdb.com/title/tt4230076/?ref_=tt_sims_tt',
       genero: 'Ação', lancamento: '18/08/2017',
-      descricao:'Um jovem é conferido com a capacidade das artes marciais é uma mística força conhecida como o punho de ferro.'
+      descricao:'Situado alguns meses após os eventos da segunda temporada de Demolidor, e um mês após os eventos de Punho de Ferro, os vigilantes Demolidor, Jessica Jones, Luke Cage e Punho de Ferro se unem em Nova York para lutar contra um inimigo comum: o Mão.'
     },
 
   ];
