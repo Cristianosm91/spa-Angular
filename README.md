@@ -14,3 +14,7 @@ Compomentes utilizados: MatToolbarModule, MatButtonToggleModule, MatListModule, 
 
 
 Visualizar no YouTube: https://www.youtube.com/watch?v=OVxut70z8rg
+_________________________________________________________________________________________________________
+<img src="https://media.giphy.com/media/Ck1Q6rEeugARByfX7R/giphy.gif"/>
+<img src="https://media.giphy.com/media/fWsv19U0xT1iPuXyX0/giphy.gif"/>
+<img src="https://media.giphy.com/media/UXupg43BFvHnvUrUPB/giphy.gif"/>
