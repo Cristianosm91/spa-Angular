@@ -13,8 +13,4 @@ Compomentes utilizados: MatToolbarModule, MatButtonToggleModule, MatListModule, 
 #### 3- Utilizar uma interação através da interpolação e/ou utilizando Property Biding.
 
 
-<img src="https://media.giphy.com/media/Ck1Q6rEeugARByfX7R/giphy.gif"/>
-<img src="https://media.giphy.com/media/fWsv19U0xT1iPuXyX0/giphy.gif"/> 
-<img src="https://media.giphy.com/media/UXupg43BFvHnvUrUPB/giphy.gif"/>
-
-
+Visualizar no YouTube: https://www.youtube.com/watch?v=OVxut70z8rg
