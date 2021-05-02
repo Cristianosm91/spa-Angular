@@ -8,11 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SeriesComponent implements OnInit {
 
+  
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  
 }
 
 

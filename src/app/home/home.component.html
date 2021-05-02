@@ -13,16 +13,17 @@
         <span class="title">Minha Primeira Aplicação Angular</span>
     </mat-toolbar>
 
+    <spa-menu></spa-menu>
+
     <section>
-        <div class="subtitle">Escolha o entre Filmes e Séries</div>
-        <div class="example-button-row">
+        <div class="subtitle">Escolha entre Filmes e Séries</div>
+        <div>
             <mat-button-toggle class="btn-exibir" (click)="exibirTabela()">Exibir Filmes</mat-button-toggle>
             <mat-button-toggle class="btn-fechar" (click)="mudarValor()">Fechar Filmes</mat-button-toggle>
             <mat-button-toggle class="btn-exibir" (click)="exibirTabelaS()">Exibir Séries</mat-button-toggle>
             <mat-button-toggle class="btn-fechar" (click)="mudarValorS()">Fechar Séries</mat-button-toggle>
         </div>
     </section>
-
 
 
     <table *ngIf="exibeTabela">
@@ -54,20 +55,20 @@
                 </iframe>
             </td>
             <td>
-                <a href="{{filme.urlIMDb}}" target="_blank">
+                <a href="{{ filme.urlIMDb }}" target="_blank">
                     <button role="button" class="botao">
                         Visitar IMDb
                     </button>
                 </a>
             </td>
-            <td>{{filme.genero}}</td>
-            <td>{{filme.lancamento}}</td>
+            <td>{{ filme.genero }}</td>
+            <td>{{ filme.lancamento }}</td>
         </tr>
     </table>
 
+
     <table *ngIf="exibeTabelaS">
-        <spa-series>
-        </spa-series>
+        <spa-series></spa-series>
         <tr>
             <th>Nome da Série</th>
             <th>Trailer</th>
@@ -80,7 +81,7 @@
                 <mat-card>
                     <mat-card-header>
                         <mat-card-title>{{ serie.nome }}
-                            <mat-card-subtitle>{{ serie.qtdTemporada }} Temporadas</mat-card-subtitle>
+                            <mat-card-subtitle>{{ serie.qtdTemporada }} Temporada(s)</mat-card-subtitle>
                         </mat-card-title>
                     </mat-card-header>
                     <img mat-card-image width="560" height="220" src="{{ serie.img }}">
@@ -96,37 +97,39 @@
                 </iframe>
             </td>
             <td>
-                <a href="{{serie.urlIMDb}}" target="_blank">
+                <a href="{{ serie.urlIMDb }}" target="_blank">
                     <button role="button" class="botao">
                         Visitar IMDb
                     </button>
                 </a>
             </td>
-            <td>{{serie.genero}}</td>
-            <td>{{serie.lancamento}}</td>
+            <td>{{ serie.genero }}</td>
+            <td>{{ serie.lancamento }}</td>
         </tr>
     </table>
 
     <footer>
 
-        <div class="subtitle">Sugestões de onde Assistir: </div>
+        <div class="subtitle">© Copyright 2021 Cristiano S da Mota
+            <p style="float: right;">Digital Innovation one | Bootcamp Angular Avanade</p>
+        </div>
 
         <div>
             <mat-list class="lista" role="list">
                 <mat-list-item role="listitem">
-                    <a href="https://www.netflix.com/br/" target="_blank">
-                        <mat-button-toggle role="button" class="botaoOndeAssistir">
-                            Netflix
+                    <a href="https://www.linkedin.com/in/cristianosm91/" target="_blank">
+                        <mat-button-toggle role="button" class="botaoContatos">
+                            Linkedin
                         </mat-button-toggle>
                     </a>
-                    <a href="https://www.disneyplus.com/pt-br/" target="_blank">
-                        <mat-button-toggle role="button" class="botaoOndeAssistir">
-                            Disney Plus
+                    <a href="https://github.com/Cristianosm91" target="_blank">
+                        <mat-button-toggle role="button" class="botaoContatos">
+                            GitHub
                         </mat-button-toggle>
                     </a>
-                    <a href="https://www.primevideo.com/?ref_=dvm_pds_amz_br_dc_s_g|m_2Hv03IvMc_c388732931008" target="_blank">
-                        <mat-button-toggle role="button" class="botaoOndeAssistir">
-                            Prime Video
+                    <a href="mailto:cristianosm91@outlook.com" target="_blank">
+                        <mat-button-toggle role="button" class="botaoContatos">
+                            Email
                         </mat-button-toggle>
                     </a>
                 </mat-list-item>

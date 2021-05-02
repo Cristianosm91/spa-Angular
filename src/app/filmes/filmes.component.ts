@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, Output } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'spa-filmes',
@@ -12,6 +12,5 @@ export class FilmesComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  @Input() valorInicial: number = 10;
-}
 
+}

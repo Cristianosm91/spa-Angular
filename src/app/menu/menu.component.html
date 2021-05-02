@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <mat-accordion>
+        <mat-expansion-panel hideToggle>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    <p> Sugestões de onde assistir </p>
+                </mat-panel-title>
+                <mat-panel-description>
+                    <p> 3 Sugestões</p>
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+            <a href="https://www.netflix.com/br/" target="_blank">
+                <mat-button-toggle role="button" class="botaoOndeAssistir">
+                    Netflix
+                </mat-button-toggle>
+            </a>
+            <a href="https://www.disneyplus.com/pt-br/" target="_blank">
+                <mat-button-toggle role="button" class="botaoOndeAssistir">
+                    Disney Plus
+                </mat-button-toggle>
+            </a>
+            <a href="https://www.primevideo.com/?ref_=dvm_pds_amz_br_dc_s_g|m_2Hv03IvMc_c388732931008" target="_blank">
+                <mat-button-toggle role="button" class="botaoOndeAssistir">
+                    Prime Video
+                </mat-button-toggle>
+            </a>
+        </mat-expansion-panel>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    <p> Sites com avaliações </p>
+                </mat-panel-title>
+                <mat-panel-description>
+                    <p> Clique para {{panelOpenState ? 'recolher' : 'expandir'}} </p>
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+            <a href="https://www.adorocinema.com/" target="_blank">
+                <mat-button-toggle role="button" class="botaoOndeAssistir">
+                    Adoro Cinema
+                </mat-button-toggle>
+            </a>
+            <a href="https://filmow.com/" target="_blank">
+                <mat-button-toggle role="button" class="botaoOndeAssistir">
+                    Filmow
+                </mat-button-toggle>
+            </a>
+            <a href="https://www.metacritic.com/" target="_blank">
+                <mat-button-toggle role="button" class="botaoOndeAssistir">
+                    Metacritic
+                </mat-button-toggle>
+            </a>
+        </mat-expansion-panel>
+    </mat-accordion>
+</body>
+
+</html>
